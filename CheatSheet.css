@@ -1,16 +1,33 @@
 body {
-    background-color: lightgray;
+    border:1px solid black;
+    border-radius:25px;
 }
+
 h1 {
     text-align: center;
     font-size: 48px;
 }
-h2 {
-    color: blue;
-}
-ol {
-    background-color: white;
-}
+
 li {
     margin: 8px;
+}
+
+dt {
+    font-style: italic;
+    font-size: 36px;
+    font-style: bold;
+}
+
+dd {
+    margin: 10px;
+    border:1px solid black;
+    border-radius:25px;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
 }
